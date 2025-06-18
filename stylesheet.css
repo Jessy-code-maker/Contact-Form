@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
