@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONTACT FORM</title>
+        <meta charset="UF-8">
+    </head>
+    <body>
+        <header>
+            <h1>CONTACT INFORMATION</h1>
+        </header>
+        <form id="CONTACT form" action="https://formsubmit.co/unoakuanusi@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_next" value="thank-you.html">
+            <label for="name">Name<span class="required-star">*</span></label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Name"required> 
+            <br>
+            <br>
+            <label for="Phone number">Phone number<span class="required-star">*</span></label>
+            <br>
+            <input type="number" id="number" name="number" placeholder="Phone number" required>
+            <br>
+            <br>
+            <label for="email address">Email Address<span class="required-star">*</span></label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com"required>
+            <br>
+            <br>
+            <label for="date of birth">Date of Birth<span class="required-star">*</span></label>
+            <br>
+            <select name="Date" id="date"required>
+                <option value="" disabled selected>Pick a Date </option>
+            </select>
+            <br>
+            <br>
+            <label>Gender</label>
+            <br>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="others" name="Gender" value="others">
+            <label for="others">Others</label>
+            <br>
+            <br>
+            <label for="file Upload">Upload your file here:</label>
+            <br>
+            <input type="file" id="file Upload" name="file Upload" accept="application/pdf">
+            <br>
+            <br>
+            <label for="feedback">Feedback</label>
+            <br>
+            <textarea id="Feedback" name="Feedback" rows="4" placeholder="Enter your comments here..."></textarea>
+            <br>
+            <br>
+            <label>Additional options</label>
+            <br>
+            <input type="checkbox" id="Latest events" name="Additional options[]" value="Latest events">
+            <label for="Latest events">Update me about Latest events.</label>
+            <br>
+            <input type="checkbox" id="Newsletter" name="Additional options[]" value="Newsletter">
+            <label for="Newsletter">Subscribe me to the Newsletter.</label>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
