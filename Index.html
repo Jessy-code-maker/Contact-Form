@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>CONTACT FORM</title>
-        <meta charset="UF-8">
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
@@ -11,115 +11,151 @@
         </header>
         <form id="CONTACT form" action="https://formsubmit.co/unoakuanusi@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
             <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thank-you.html">
-            <label for="name"><strong>Name</strong><span class="required-star">*</span></label>
+            <input type="hidden" name="_next" value="https://jessy-code-maker.github.io/Contact-Form/thank-you.html">
             <br>
-            <input type="text" id="name" name="name" placeholder="Name"required> 
-            <br>
-            <br>
-            <label for="Phone number"><strong>Phone number</strong><span class="required-star">*</span></label>
-            <br>
-            <input type="number" id="number" name="number" placeholder="Phone number" required>
-            <br>
-            <br>
-            <label for="email address"><strong>Email Address</strong><span class="required-star">*</span></label>
-            <br>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com"required>
-            <br>
-            <br>
-            <label for="Country"><strong>Country</strong><span class="required-star">*</span></label>
-            <br>
-            <select name="Country" id="Country"required>
-                <option value="" disabled selected>Country</option>
-                <option value="1">Algeria</option>
-                <option value="2">Angola</option>
-                <option value="3">Benin</option>
-                <option value="4">Botswana</option>
-                <option value="5">Burundi</option>
-                <option value="6">Burkina Faso</option>
-                <option value="7">Cameroon</option>
-                <option value="8">Cape Verde</option>
-                <option value="9">Central African Republic</option>
-                <option value="10">Chad</option>
-                <option value="11">Comoros</option>
-                <option value="12">DR Congo</option>
-                <option value="13">Djibouti</option>
-                <option value="14">Eswatini</option>
-                <option value="15">Equatorial Guinea</option>
-                <option value="16">Eritrea</option>
-                <option value="17">Egypt</option>
-                <option value="18">Ethiopia</option>
-                <option value="19">Guinea-Bissau</option>
-                <option value="20">Gabon</option>
-                <option value="21">Gambia</option>
-                <option value="22">Guinea</option>
-                <option value="23">Ghana</option>
-                <option value="24">Ivory Coast</option>
-                <option value="25">Kenya</option>
-                <option value="26">Lesotho</option>
-                <option value="27">Liberia</option>
-                <option value="28">Libya</option>
-                <option value="29">Mauritania</option>
-                <option value="30">Malawi</option>
-                <option value="31">Mali</option>
-                <option value="32">Madagascar</option>
-                <option value="33">Mozambique</option>
-                <option value="34">Morocco</option>
-                <option value="35">Nigeria</option>
-                <option value="36">Niger</option>
-                <option value="37">Réunion</option>
-                <option value="38">Republic of the Congo</option>
-                <option value="39">Rwanda</option>
-                <option value="40">Somalia</option>
-                <option value="41">Sudan</option>
-                <option value="42">Senegal</option>
-                <option value="43">South Sudan</option>
-                <option value="44">South Africa</option>
-                <option value="45">Sierra Leone</option>
-                <option value="46">Seychelles</option>
-                <option value="47">São Tomé and Príncipe</option>
-                <option value="48">Tanzania</option>
-                <option value="49">Togo</option>
-                <option value="50">Tunisia</option>
-                <option value="51">Uganda</option>
-                <option value="52">Western Sahara</option>
-                <option value="53">Zimbabwe</option>
-                <option value="54">Zambia</option>
-            </select>
-            <br>
-            <br>
-            <label><strong>Gender</strong></label>
-            <br>
-            <input type="radio" id="male" name="Gender" value="male">
-            <label for="male">Male</label>
-            <br>
-            <input type="radio" id="female" name="Gender" value="female">
-            <label for="female">Female</label>
-            <br>
-            <input type="radio" id="others" name="Gender" value="others">
-            <label for="others">Others</label>
-            <br>
-            <br>
-            <label for="file Upload">Upload your file here(PDF only):</label>
-            <br>
-            <input type="file" id="file Upload" name="file Upload" accept="application/pdf">
-            <br>
-            <br>
-            <label><strong>Additional options</strong></label>
-            <br>
-            <input type="checkbox" id="Latest events" name="Additional options[]" value="Latest events">
-            <label for="Latest events">Update me about Latest events.</label>
-            <br>
-            <input type="checkbox" id="Newsletter" name="Additional options[]" value="Newsletter">
-            <label for="Newsletter">Subscribe me to the Newsletter.</label>
-            <br>
-            <br>
-            <label for="feedback"><strong>Feedback</strong></label>
-            <br>
-            <textarea id="Feedback" name="Feedback" rows="4" placeholder="Enter your comments here..."></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Submit">
+            <div>
+             <label for="name"><strong>Name</strong><span class="required-star">*</span></label>
+             <br>
+             <input type="text" id="name" name="name" placeholder="Enter your Name"required>
+          </div> 
+            <br><br>
+            <div>
+             <label for="Phone number"><strong>Phone number</strong><span class="required-star">*</span></label>
+             <br>
+             <input type="number" id="number" name="number" placeholder="Phone number" required>
+            </div>
+            <br><br>
+            <div>
+              <label for="email address"><strong>Email Address</strong><span class="required-star">*</span></label>
+              <br>
+             <input type="email" id="email" name="email" placeholder="example@gmail.com"required>
+            </div>
+            <br><br>
+            <div>
+                <label for="dob"><strong>Date of Birth</strong><span class="required-star">*</span></label>
+                <br>
+                <input type="date" id="dob" name="dob"required>
+            </div>
+            <br><br>
+            <div>
+                <label for="linkedin"><strong>LinkedIn Profile Link</strong> <em>(Optional)</em></label>
+                <br>
+                <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yourname"size="30">
+            </div>
+            <br><br>
+            <div>
+                <label for="Country"><strong>Country</strong><span class="required-star">*</span></label>
+             <br>
+             <select name="Country" id="Country"required>
+                <!--the option contains the list of the 54 countries in Africa-->
+                 <option value="" disabled selected>select your country</option>
+                 <option value="Algeria">Algeria</option>
+                 <option value="Angola">Angola</option>
+                 <option value="Benin">Benin</option>
+                 <option value="Botswana">Botswana</option>
+                 <option value="Burundi">Burundi</option>
+                 <option value="Burkina Faso">Burkina Faso</option>
+                 <option value="Cameroon">Cameroon</option>
+                 <option value="Cape Verde">Cape Verde</option>
+                 <option value="Central African Republic">Central African Republic</option>
+                 <option value="Chad">Chad</option>
+                 <option value="Comoros">Comoros</option>
+                 <option value="DR Congo">DR Congo</option>
+                 <option value="Djibouti">Djibouti</option>
+                 <option value="Eswatini">Eswatini</option>
+                 <option value="Equatorial Guinea">Equatorial Guinea</option>
+                 <option value="Eritrea">Eritrea</option>
+                 <option value="Egypt">Egypt</option>
+                 <option value="Ethiopia">Ethiopia</option>
+                 <option value="Guinea-Bissau">Guinea-Bissau</option>
+                 <option value="Gabon">Gabon</option>
+                 <option value="Gambia">Gambia</option>
+                 <option value="Guinea">Guinea</option>
+                 <option value="Ghana">Ghana</option>
+                 <option value="Ivory Coast">Ivory Coast</option>
+                 <option value="Kenya">Kenya</option>
+                 <option value="Lesotho">Lesotho</option>
+                 <option value="Liberia">Liberia</option>
+                 <option value="Libya">Libya</option>
+                 <option value="Mauritania">Mauritania</option>
+                 <option value="Malawi">Malawi</option>
+                 <option value="Mali">Mali</option>
+                 <option value="Madagascar">Madagascar</option>
+                 <option value="Mozambique">Mozambique</option>
+                 <option value="Morocco">Morocco</option>
+                 <option value="Nigeria">Nigeria</option>
+                 <option value="Niger">Niger</option>
+                 <option value="Réunion">Réunion</option>
+                 <option value="Republic of the Congo">Republic of the Congo</option>
+                 <option value="Rwanda">Rwanda</option>
+                 <option value="Somalia">Somalia</option>
+                 <option value="Sudan">Sudan</option>
+                 <option value="Senegal">Senegal</option>
+                 <option value="South Sudan">South Sudan</option>
+                 <option value="South Africa">South Africa</option>
+                 <option value="Sierra Leone">Sierra Leone</option>
+                 <option value="Seychelles">Seychelles</option>
+                 <option value="São Tomé and Príncipe">São Tomé and Príncipe</option>
+                 <option value="Tanzania">Tanzania</option>
+                 <option value="Togo">Togo</option>
+                 <option value="Tunisia">Tunisia</option>
+                 <option value="Uganda">Uganda</option>
+                 <option value="Western Sahara">Western Sahara</option>
+                 <option value="Zimbabwe">Zimbabwe</option>
+                 <option value="Zambia">Zambia</option>
+             </select>
+           </div>
+            <br><br>
+            <div>
+                <label for="Contact-time"><strong>Preferred Contact Time</strong></label><br>
+                <input type="time" id="Contact-time" name="Contact-time">
+            </div>
+            <br><br>
+            <div>
+             <label><strong>Gender</strong><span class="required-star">*</span></label>
+             <br>
+             <input type="radio" id="male" name="Gender" value="male"required>
+             <label for="male">Male</label>
+             <br>
+             <input type="radio" id="female" name="Gender" value="female">
+             <label for="female">Female</label>
+             <br>
+             <input type="radio" id="others" name="Gender" value="others">
+             <label for="others">Others</label>
+           </div>
+            <br><br>
+            <div>
+             <label for="file Upload"><strong>Upload your File here</strong> <em>(PDF only)</em>:</label>
+             <br>
+             <input type="file" id="file Upload" name="file Upload" accept="application/pdf">
+            </div>
+            <br><br>
+            <div>
+             <label><strong>Additional options</strong></label>
+             <br>
+             <input type="checkbox" id="Latest events" name="Additional options[]" value="Latest events">
+             <label for="Latest events">Update me about Latest events.</label>
+             <br>
+             <input type="checkbox" id="Newsletter" name="Additional options[]" value="Newsletter">
+             <label for="Newsletter">Subscribe me to the Newsletter.</label>
+            </div>
+            <br><br>
+            <div>
+             <label for="feedback"><strong>Feedback</strong></label>
+             <br>
+             <textarea id="Feedback" name="Feedback" rows="4" cols="40" placeholder="Please share your thoughts or suggestions..."></textarea>
+            </div>
+            <br><br>
+            <div>
+                <label>
+                    <input type="checkbox" name="terms"required>I accept the event's <em><u>Terms and Conditions</u></em>.<span class="required-star">*</span>
+                </label>
+            </div>
+            <br><br>
+            <div><input type="submit" value="Submit"></div>
         </form>
+        <div class="footer">
+            <p>&copy;2025 Jacinta. All rights reserved</p>
+        </div>
     </body>
 </html>
